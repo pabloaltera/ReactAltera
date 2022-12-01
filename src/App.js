@@ -13,6 +13,7 @@ function App() {
       img={"https://http2.mlstatic.com/D_NQ_NP_714534-MLA51824544508_102022-O.webp"}
       button={"Ver mas"}
       />
+      
     </div>
   );
 }

@@ -2,3 +2,9 @@
     background-color: darkred !important; 
     width: 100%;
 }
+
+.btn-cat{
+    background-color: darkred;
+    color: whitesmoke;
+    font-weight: bold;
+}

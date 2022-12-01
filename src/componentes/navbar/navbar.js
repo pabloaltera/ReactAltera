@@ -16,6 +16,17 @@ const navbar = () => {
           <a className="nav-link active text-light" aria-current="page" href="#">Inicio</a>
           <a className="nav-link active text-light" href="#">Tienda</a>
           <a className="nav-link active text-light" href="#">Contacto</a>
+          <div class="dropdown">
+          <button class="btn btn-cat dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Accesorios Celulares</button></li>
+            <li><button class="dropdown-item" type="button">Accesorios Notebook</button></li>
+            <li><button class="dropdown-item" type="button">Organizadores de Escritorio</button></li>
+            <li><button class="dropdown-item" type="button">Adornos para el hogar</button></li>
+          </ul>
+        </div>
         </div>
       </div>
         <div className="cajaImagen">
