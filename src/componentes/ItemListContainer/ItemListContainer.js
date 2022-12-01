@@ -1,6 +1,6 @@
 import React from 'react'
 
-const card = (props) => {
+const itemListContainer = (props) => {
     const { titulo, descripcion, img, button} = props; 
   return (
     <div className="card container-fluid p-2 mt-2" style={{width : "18rem"}}>
@@ -16,4 +16,4 @@ const card = (props) => {
   );
 };
 
-export default card;
+export default itemListContainer;
