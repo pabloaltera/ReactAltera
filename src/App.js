@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './componentes/navbar/navbar';
+import Card from './componentes/card/card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Card
+      titulo={"Soporte universal"}
+      descripcion={"Soporte universal para Celular / Tablet. Varios colores"}
+      img={"https://http2.mlstatic.com/D_NQ_NP_714534-MLA51824544508_102022-O.webp"}
+      button={"Ver mas"}
+      />
     </div>
   );
 }

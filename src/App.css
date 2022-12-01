@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.fondo_navbar{
+  background-color: palevioletred !important; 
+  width: 100%;
+  border: 1px solid black;
+}
+.container-fluid{
+  width: 100%;
+}
+
+.div4{
+width: 100%;
+}
+
+.cajaImagen{
+  width: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carrito{
+  width: 100%;
+
+}
