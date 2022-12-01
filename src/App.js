@@ -5,7 +5,7 @@ import Card from './componentes/card/card';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <Navbar/>
       <Card
       titulo={"Soporte universal"}
